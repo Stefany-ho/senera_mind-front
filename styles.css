@@ -30,6 +30,12 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: 30px 40px;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav_container_options{
@@ -57,6 +63,13 @@ ul{
 .button_green{
     background-color: #3daf74;
     color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px #aac2b6;
+    cursor: pointer;
+    text-align: center;
 }
 
 .button_green:hover{
@@ -70,5 +83,181 @@ ul{
 }
 
 .titulo{
-    margin: 50px 500px;
+    margin: 50px 500px;  
+    padding-top: 120px; 
 }
+
+.subtt_titulo{
+    text-align: center;
+    font-size: 17px;
+    color: #4a4a4a;
+}
+
+.subtt_cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.iniciartp{
+    text-align: right;
+    margin: 80px 500px;
+    font-size: 20px ;
+    color: #3daf74;
+}
+
+.container{
+    text-align: right;
+    font-size: 25px;
+    margin:  0 500px;  
+}
+
+.elige{
+    text-align: right;
+    font-size: 25px;
+    margin:  0 500px; 
+}
+
+.filtro{
+    text-align: right;
+    font-family: 25px;
+    margin:  0 500px;
+}
+
+.agenda{
+    text-align: right;
+    font-family: 25px;
+    margin:  0 500px;
+}
+
+.inicia{
+    text-align: right;
+    font-family: 25px;
+    margin:  0 500px;
+}
+
+.button{ 
+    text-align: center;
+    margin:  60px 500px;
+    
+}
+
+.footer{
+    background-color: #3daf74;
+    color: #ffffff;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .footer-column {
+    flex: 1 1 200px;
+    margin: 10px 20px;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .language-switch button {
+    background-color: white;
+    color: #daf5d6;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .social-icons span {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .app_icons img{
+    width: 120px;
+    margin: 10px 5px 0 
+  }
+
+  .subtt_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen_wrapper {
+    width: 280px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.img_terapia,
+.img_coach,
+.img_nutri,
+.img_psiquia {
+    width: 190px;
+    height: 190px;
+    object-fit: cover; 
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.button_green {
+    background-color: #34a853;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.button_green:hover {
+    background-color: #2f9e4a;
+}
+
+
+.terapia_bg { background-color: #cef1cb; }
+.coaching_bg { background-color: #d3f4f9; }
+.nutricion_bg { background-color: #fff4d6; }
+.psiquia_bg { background-color: #fce2e2; }
